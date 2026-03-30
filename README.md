@@ -46,7 +46,16 @@ source venv/bin/scripts/activate  # On Windows: venv\Scripts\activate
 # Install required libraries
 pip install -r requirements.txt
 ```
-### 2. Points to keep in mind
+### 2.  Dataset Setup
+
+1. Go to the https://www.kaggle.com/datasets/andrewmvd/face-mask-detection
+
+2.  Download the ZIP file and extract it.
+
+3.  Move the annotations and images folders from the extracted ZIP into the dataset folder
+
+
+### 3. Points to keep in mind
 
 Ensure that the folder structure matches the project structure given her :
 
@@ -56,7 +65,7 @@ Ensure that the trained model mask_detector.h5 is in the model/ folder.
 
 Update the BASE_PATH in src/train.py according to the folder where the datset is stored in your system
 
-### 3. Training the Model
+### 4. Training the Model
 
 To train the MobileNetV2 classifier using dataset, run:
 
@@ -65,7 +74,7 @@ python src/train.py
 
 ```
 
-### 4.Real-Time Detection
+### 5.Real-Time Detection
 
 Ensure your webcam is connected, then execute:
 
