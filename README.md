@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 2.  Download the ZIP file and extract it.
 
-3.  Move the annotations and images folders from the extracted ZIP into the dataset folder
+3. Create a dataset folder like given in the project structure and move the annotations and images folders from the extracted ZIP into the dataset folder.
 
 
 ### 3. Points to keep in mind
@@ -63,7 +63,7 @@ Face detector files should be in face_detector/ folder.
 
 Ensure that the trained model mask_detector.h5 is in the model/ folder.
 
-Update the BASE_PATH in src/train.py according to the folder where the datset is stored in your system
+Update the paths according to your system where it is necessary in all the code . Ensure that the path is correct.
 
 ### 4. Training the Model
 
