@@ -1,4 +1,4 @@
-# Real-Time Face Mask Detection System 
+# Real-Time Mask Detection System 
 
 ## Project
 This project is a Computer Vision system that is designed to detect and classify face mask usage in real-time. It checks whether the the person in live web camera is wearing the mask properly or not . This gives a solution to a major world problem of people ignoring safety regulations in places where it is required .For example hospital premises where wearing masks is a nessicity for preventing further contamination of possible dieases . This will encourage people to take safety measures and in return will help in reducing possible health problems .
