@@ -100,3 +100,8 @@ Loss: 0.2053
 Successful real-time classification of "No Mask" status eg:-
 <img width="634" height="508" alt="image" src="https://github.com/user-attachments/assets/fa7b013f-152b-4f6c-aed2-23d94f45ef06" />
 
+### License
+
+MIT License - Developed as a Capstone BYOP Project for VITyarthi.
+
+
