@@ -1,12 +1,10 @@
 # Real-Time Mask Detection System 
 
 ## Project
-This project is a Computer Vision system that is designed to detect and classify face mask usage in real-time. It checks whether the the person in live web camera is wearing the mask properly or not . This gives a solution to a major world problem of people ignoring safety regulations in places where it is required .For example hospital premises where wearing masks is a nessicity for preventing further contamination of possible dieases . This will encourage people to take safety measures and in return will help in reducing possible health problems .
+This is a Computer Vision system that is designed to detect and classify face mask usage in real-time. It checks whether the the person in live web camera is wearing the mask properly or not . This gives a solution to a major world problem of people ignoring safety regulations in places where it is required .For example hospital premises where wearing masks is a necessity for preventing further contamination of possible dieases . This will encourage people to take safety measures and in return will help in reducing possible health problems .
 
-The system performs three-way classification:
-* **Mask On**:Is user wearing a mask ?
-*  **No Mask**:Is user wearing a mask or not ?
-*  **Incorrect Mask**: Is user wearing a mask correctly? (e.g., below the nose).
+<img width="288" height="175" alt="image" src="https://github.com/user-attachments/assets/27eaef19-229c-4e18-b5c4-ac67f1954955" />
+
 
 ---
 
@@ -38,15 +36,23 @@ FaceMaskDetection/
 
 ##  Installation & Usage
 
-### 1. Environment Setup 
+### 1. Clone the Repository
+
+```bash
+git clone [https://github.com/Samiksha-sahu23/RealTime-Mask-Detection.git]
+cd RealTime-Mask-Detection
+
+```
+
+### 2. Environment Setup 
 ```
 python -m venv venv
-source venv/bin/scripts/activate  # On Windows: venv\Scripts\activate
+source venv/bin/scripts/activate
 
 # Install required libraries
 pip install -r requirements.txt
 ```
-### 2.  Dataset Setup
+### 3.  Dataset Setup
 
 1. Go to the https://www.kaggle.com/datasets/andrewmvd/face-mask-detection
 
@@ -55,7 +61,7 @@ pip install -r requirements.txt
 3. Create a dataset folder like given in the project structure and move the annotations and images folders from the extracted ZIP into the dataset folder.
 
 
-### 3. Points to keep in mind
+### 4. Points to keep in mind
 
 Ensure that the folder structure matches the project structure given her :
 
@@ -65,7 +71,7 @@ Ensure that the trained model mask_detector.h5 is in the model/ folder.
 
 Update the paths according to your system where it is necessary in all the code . Ensure that the path is correct.
 
-### 4. Training the Model
+### 5. Training the Model
 
 To train the MobileNetV2 classifier using dataset, run:
 
@@ -74,7 +80,7 @@ python src/train.py
 
 ```
 
-### 5.Real-Time Detection
+### 6.Real-Time Detection
 
 Ensure your webcam is connected, then execute:
 
