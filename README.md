@@ -8,7 +8,7 @@ This is a Computer Vision system that is designed to detect and classify face ma
 
 ---
 
-##  Key Features
+##  Key Features  
 * **Real-Time Inference**: Video feed processes at ~10-12 FPS .
 * **SSD Localization**: Model detects face even in varying lighting conditions.
 * **Design**: This project has separate training and detection pipelines structure.
